@@ -1,7 +1,7 @@
 import json
 import requests
 
-class CoinMarketCap(object):
+class PyCoinMarket(object):
 
     def __init__(self, coin="bitcoin"):
         self.c_id = coin
