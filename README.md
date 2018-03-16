@@ -1,6 +1,6 @@
 # PyCoinMarket
 
-A Python-Friendly API Service for Crypto Currency Information.
+A Human-Friendly Python API Service for Crypto Currency Information.
 
 Currently supported markets:
     1. Coin Market Cap
