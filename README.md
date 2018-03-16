@@ -9,38 +9,37 @@ Currently supported markets:
 ## Example usage
 
 ```python
-from pycoin.CoinMarketCap import CoinMarketCap
-
-cmc = CoinMarketCap('ethereum') # Defaults to bitcoin
+pcm = PyCoinMarket('ethereum') # Defaults to bitcoin
 
 
-cmc.name() # Returns the name of the currency
+pcm.name() # Returns the name of the currency
 
-cmc.id() # Returns the currency ID
+pcm.id() # Returns the currency ID
 
-cmc.symbol() # Returns the coin symbol
+pcm.symbol() # Returns the coin symbol
 
-cmc.rank() # Returns the coins rank
+pcm.rank() # Returns the coins rank
 
-cmc.price() # Returns the coins price in USD
+pcm.price() # Returns the coins price in USD
 
-cmc.price_btc() # Returns the coins price in BTC
+pcm.price_btc() # Returns the coins price in BTC
 
-cmc.volume() # Returns the volume of the coin traded in the past 24 hours (USD)
+pcm.volume() # Returns the volume of the coin traded in the past 24 hours (USD)
 
-cmc.market_cap() # Returns the coins market cap
+pcm.market_cap() # Returns the coins market cap
 
-cmc.available() # Returns the coins available supply
+pcm.available() # Returns the coins available supply
 
-cmc.total() # Returns the coins total supply
+pcm.total() # Returns the coins total supply
 
-cmc.max() # Returns the coins maximum supply
+pcm.max() # Returns the coins maximum supply
 
-cmc.percent_change_hour() # Returns the percentage change for the past hour
+pcm.percent_change_hour() # Returns the percentage change for the past hour
 
-cmc.percent_change_day() # Returns the percentage change for the past day
+pcm.percent_change_day() # Returns the percentage change for the past day
 
-cmc.percent_change_week() # Returns the percentage change for the past week
+pcm.percent_change_week() # Returns the percentage change for the past week
 
-cmc.last_update() # Returns the last update (POSIX time)
+pcm.last_update() # Returns the last update (POSIX time)
+
 ```
