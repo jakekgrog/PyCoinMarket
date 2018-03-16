@@ -68,13 +68,3 @@ class PyCoinMarket(object):
     
     def last_update(self):
         return self.c_last_update
-
-
-def main():
-    cmc = CoinMarketCap()
-    print(cmc.name())
-    cmc2 = CoinMarketCap('ethereum')
-    print(cmc2.name())
-
-if __name__=="__main__":
-    main()
